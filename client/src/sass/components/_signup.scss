@@ -1,0 +1,29 @@
+.signup-comp{
+    margin-top: 1rem;
+
+    .singup-error-message{
+        color: $color-red;
+        text-align: center;
+    }
+    .signup-header{
+        margin-bottom: 1rem;
+    }
+    .signup-heading{
+        color: $color-grey-2;
+    }
+
+    .singup-option-container{
+        margin-top: 1.5rem;
+
+        .signup-option{
+            background-color: transparent;
+            justify-content: flex-start;
+            padding: 0;
+        }
+    }
+
+    .signup-form-submit-btn{
+        margin-top: 2rem;
+        @include flexJustifyCenter;
+    }
+}

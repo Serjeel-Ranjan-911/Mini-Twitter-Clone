@@ -1,0 +1,19 @@
+.tweets-search-news-sections {
+
+    .tweet-sections {
+
+        .tweets {
+            position: relative;
+            // border: 1px solid $color-grey-2;
+            margin-top: 0.5rem;
+            margin-bottom: 5rem;
+            .loading-more-tweets{
+                position: relative;
+                height: 100px;
+            }
+        }
+    }
+    .searchbar-news-sections-wrap{
+        width: 350px;
+    }
+}
