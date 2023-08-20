@@ -635,7 +635,7 @@ module.exports.getUserTweets = async (req, res, next) => {
                         $skip: offset
                     },
                     {
-                        $limit: 5,
+                        $limit: 15,
                     },
                     {
                         $lookup: {

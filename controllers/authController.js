@@ -77,7 +77,6 @@ module.exports.signupUserWithEmail = async(req,res,next)=>{
             ]
             const myuser = await User.aggregate(pipeline);
             const user_confirm_token = await ConfirmToken.create({user:user._id,token:rbytes})
-            sendVerificationEmail(email,name,vlink)
             return res.send({
                 user:myuser[0],
                 token: jwt.sign({

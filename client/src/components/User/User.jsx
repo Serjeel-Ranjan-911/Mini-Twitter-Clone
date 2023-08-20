@@ -92,11 +92,7 @@ export default function User() {
             <UserHeader />
             <div className="bc-image-container">
               <img
-                src={
-                  guestUser.backgroundImage
-                    ? guestUser.backgroundImage
-                    : "https://via.placeholder.com/700"
-                }
+                src="https://thumbs.dreamstime.com/b/berlin-germany-jan-twitter-social-media-blue-bird-sign-logo-symbol-minimalist-design-painted-over-white-brick-wall-background-137526023.jpg"
                 alt="bc-pic"
                 style={{ display: backgroundImageLoaded ? "block" : "none" }}
                 className="bc-image"
@@ -107,7 +103,7 @@ export default function User() {
             <motion.div className="user-details">
               <div className="profile-pic-container-two">
                 <img
-                  src={guestUser.avatar}
+                  src="https://busy-toad-jumpsuit.cyclic.cloud/testuser1"
                   alt="profile-pic"
                   className="profile-pic"
                   style={{ display: profileImageLoaded ? "block" : "none" }}

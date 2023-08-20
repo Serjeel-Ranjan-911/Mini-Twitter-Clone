@@ -35,7 +35,7 @@ const UserSchema = new Schema({
     googleId: Number,
     backgroundImage: {
         type: String,
-        default: 'https://i.ibb.co/RvWK1Nf/giphy-1.gif',
+        default: 'https://thumbs.dreamstime.com/b/berlin-germany-jan-twitter-social-media-blue-bird-sign-logo-symbol-minimalist-design-painted-over-white-brick-wall-background-137526023.jpg',
     },
     bio: {
         type: String,

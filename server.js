@@ -27,12 +27,6 @@ const connectMongoDb = async () => {
 };
 connectMongoDb();
 
-// for ping ;)
-
-app.get("/ping", (req, res) => {
-  res.send("success!");
-});
-
 // global error handeler
 app.use((err, req, res, next) => {
   if (err.message) {

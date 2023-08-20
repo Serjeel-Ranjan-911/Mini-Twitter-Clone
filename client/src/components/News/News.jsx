@@ -17,14 +17,14 @@ export default function News() {
             <h2>What's happening</h2>
           </div>
           <div className="news-items">
-            {data.results.slice(0, size).map((news) => (
+            {/* {data.results.slice(0, size).map((news) => (
               <NewsItem
                 image_url={news.image_url}
                 heading={news.title}
                 link={news.link}
                 key={news.pubDate}
               />
-            ))}
+            ))} */}
           </div>
         </>
       )}

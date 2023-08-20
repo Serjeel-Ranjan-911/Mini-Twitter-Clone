@@ -47,7 +47,7 @@ export const feedSlice = createSlice({
             state.tweetsFetching = true;
         },
         FEED_TWEETS_FETCH_SUCCESS: (state, action) => {
-            if(action.payload.length < 5){
+            if(action.payload.length < 15){
                 state.hasMoreFeedTweets = false;
             }
             state.feedTweets = state.feedTweets.concat(action.payload);
