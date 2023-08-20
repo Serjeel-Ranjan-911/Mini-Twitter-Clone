@@ -36,7 +36,7 @@ export default function FollowUser({ user, type }) {
     >
       <div className="wrap-user">
         <div className="profile-pic-container">
-          <img src={user.avatar} alt="profile-pic" className="profile-pic" />
+          <img src="/images/defaultProfilePic.jpg" alt="profile-pic" className="profile-pic" />
         </div>
         <div className="profile-details">
           <Link to={"/" + user.username} className="user-fullname">

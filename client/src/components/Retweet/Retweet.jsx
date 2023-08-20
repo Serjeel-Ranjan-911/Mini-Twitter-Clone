@@ -6,7 +6,7 @@ export default function Retweet({ tweet,showPic }) {
     <div className="retweets tweet-link">
       <div className="tweet tweet-container">
         <div className="profile-pic-container">
-          <img src={tweet.user.avatar} alt="user-pic" className="profile-pic" />
+          <img src="/images/defaultProfilePic.jpg" alt="user-pic" className="profile-pic" />
           <span className="hr-line"></span>
         </div>
         <div className="tweet-content">

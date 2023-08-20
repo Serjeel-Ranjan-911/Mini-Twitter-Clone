@@ -56,7 +56,6 @@ export default function BookmarksPage() {
               input={searchQuery}
               setInput={(value) => setSearchQuery(value)}
             />
-            <News />
             <WhoToFollow />
           </div>
         </div>

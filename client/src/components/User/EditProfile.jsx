@@ -21,7 +21,7 @@ export default function EditProfile() {
   const [bio, setBio] = useState(user.bio ?? "");
   const [location, setLocation] = useState(user.location ?? "");
   const [bcPic, setBcPic] = useState(user.backgroundImage);
-  const [profilePic, setProfilePic] = useState(user.avatar);
+  const [profilePic, setProfilePic] = useState("/images/defaultProfilePic.jpg");
   const navigate = useNavigate();
   const handelProfilePicChange = (e) => {
     try {

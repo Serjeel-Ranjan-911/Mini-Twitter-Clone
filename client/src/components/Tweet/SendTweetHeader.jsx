@@ -13,7 +13,7 @@ export default function SendTweetHeader() {
       <div className="send-tweet-heading">
         <div className="profile-conatiner">
           <div className="profile-pic" onClick={()=>dispatch(TOGGLE_NAVBAR())}>
-            <img src={user.avatar} alt="user" />
+            <img src="/images/defaultProfilePic.jpg" alt="user" />
           </div>
           <div className="heading-wrap">
             <span className="heading-text">Home</span>

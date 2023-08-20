@@ -87,7 +87,7 @@ export default function SendTweet({ className,placeholder,tweet=null }) {
       <div className={postingTweet ?"send-tweet-wrap disabled" :"send-tweet-wrap"} >
         <div className="wrapper">
           <div className="profile-pic-container">
-            <img src={currentUser.avatar} alt="userpic" className="user-pic" />
+            <img src="/images/defaultProfilePic.jpg" alt="userpic" className="user-pic" />
           </div>
           <div className="whats-happening">
             <div className="tweet-input-container">

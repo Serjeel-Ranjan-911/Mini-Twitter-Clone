@@ -91,7 +91,6 @@ export default function TweetSections() {
               input={searchQuery}
               setInput={(value) => setSearchQuery(value)}
             />
-            <News />
             <WhoToFollow />
           </div>
         </div>

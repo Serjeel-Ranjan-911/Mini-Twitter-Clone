@@ -55,7 +55,6 @@ export default function NotificationsPage() {
           <div className="follow-sugg-news-wrap">
             <Searchbar input={searchQuery}
               setInput={(value) => setSearchQuery(value)}/>
-            <News />
             <WhoToFollow />
           </div>
         </div>

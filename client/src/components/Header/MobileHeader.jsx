@@ -112,7 +112,7 @@ export default function MobileHeader() {
                 </span>
               </div>
               <div className="user-profile">
-                <img src={user.avatar} alt="profile" />
+                <img src="/images/defaultProfilePic.jpg" alt="profile" />
                 <span className="fullname">{user.fullName}</span>
                 <span className="username">@{user.username}</span>
               </div>

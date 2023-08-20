@@ -208,7 +208,7 @@ export default function DesktopHeader() {
           >
             <div className="profile-pic-container">
               <img
-                src={user.avatar}
+                src="/images/defaultProfilePic.jpg"
                 alt="profile-pic"
                 className="profile-pic"
               />
@@ -234,7 +234,7 @@ export default function DesktopHeader() {
                 <div className="profile-deatils-wrap header-profile">
                   <div className="profile-pic-container">
                     <img
-                      src={user.avatar}
+                      src="/images/defaultProfilePic.jpg"
                       alt="profile-pic"
                       className="profile-pic"
                     />

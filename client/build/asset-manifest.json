@@ -1,24 +1,24 @@
 {
   "files": {
     "main.css": "/static/css/main.22130109.css",
-    "main.js": "/static/js/main.294cb50d.js",
+    "main.js": "/static/js/main.6d7c49d5.js",
     "static/js/869.6052cb5b.chunk.js": "/static/js/869.6052cb5b.chunk.js",
-    "static/js/62.39ea1c87.chunk.js": "/static/js/62.39ea1c87.chunk.js",
+    "static/js/62.8c09a826.chunk.js": "/static/js/62.8c09a826.chunk.js",
     "static/js/75.24912b7d.chunk.js": "/static/js/75.24912b7d.chunk.js",
     "static/js/608.9bd13178.chunk.js": "/static/js/608.9bd13178.chunk.js",
     "static/js/787.faf20201.chunk.js": "/static/js/787.faf20201.chunk.js",
     "static/media/lohp_en_1302x955.png": "/static/media/lohp_en_1302x955.4fa9f2609860f24c79ef.png",
     "index.html": "/index.html",
     "main.22130109.css.map": "/static/css/main.22130109.css.map",
-    "main.294cb50d.js.map": "/static/js/main.294cb50d.js.map",
+    "main.6d7c49d5.js.map": "/static/js/main.6d7c49d5.js.map",
     "869.6052cb5b.chunk.js.map": "/static/js/869.6052cb5b.chunk.js.map",
-    "62.39ea1c87.chunk.js.map": "/static/js/62.39ea1c87.chunk.js.map",
+    "62.8c09a826.chunk.js.map": "/static/js/62.8c09a826.chunk.js.map",
     "75.24912b7d.chunk.js.map": "/static/js/75.24912b7d.chunk.js.map",
     "608.9bd13178.chunk.js.map": "/static/js/608.9bd13178.chunk.js.map",
     "787.faf20201.chunk.js.map": "/static/js/787.faf20201.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.22130109.css",
-    "static/js/main.294cb50d.js"
+    "static/js/main.6d7c49d5.js"
   ]
 }

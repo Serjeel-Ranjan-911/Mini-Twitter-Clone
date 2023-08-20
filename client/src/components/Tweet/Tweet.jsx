@@ -247,7 +247,7 @@ export default function Tweet({
       )}
       <div className="tweet tweet-container">
         <div className="profile-pic-container">
-          <img src={tweet.user.avatar} alt="user-pic" className="profile-pic" />
+          <img src="/images/defaultProfilePic.jpg" alt="user-pic" className="profile-pic" />
         </div>
         {isParentTweet && <span className="hr-line"></span>}
         <div className="tweet-content">

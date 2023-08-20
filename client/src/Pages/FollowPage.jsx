@@ -56,7 +56,6 @@ export default function FollowPage() {
         <div className="col2 follow-sugg-news-container">
           <div className="follow-sugg-news-wrap">
             <Searchbar />
-            <News />
             <WhoToFollow />
           </div>
         </div>

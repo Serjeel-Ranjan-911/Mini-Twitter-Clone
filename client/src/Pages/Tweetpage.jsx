@@ -103,7 +103,6 @@ export default function Tweetpage() {
         <div className="col2 tweet-sugg-news-container">
           <div className="tweet-sugg-news-wrap">
             <Searchbar input={searchQuery} setInput={(value)=>setSearchQuery(value)}/>
-            <News />
             <WhoToFollow />
           </div>
         </div>
